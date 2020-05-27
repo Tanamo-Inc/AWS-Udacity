@@ -1,6 +1,11 @@
 from validate_emails import email_validator
 
 
-#Test Passed 
-def test_email():
-    assert(email_validator('a@g.com')== True)
+# Test Passed
+def test_email_passed():
+    assert(email_validator('info@tanacom.io') == True)
+
+
+# Test Failed
+def test_email_failed():
+    assert(email_validator('info@tancom') == True)

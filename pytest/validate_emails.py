@@ -3,7 +3,7 @@
 def email_validator(email):
     """"Returns valid email
     """
-    if email.count('@') != 0 and email.count('.') != 0:
+    if email.count('@') == 1 and email.count('.') == 1:
         return True
     else:
         return False
