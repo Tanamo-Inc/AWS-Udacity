@@ -10,6 +10,7 @@ from distributions import Gaussian
 from distributions import Binomial
 
 
+
 class TestGaussianClass(unittest.TestCase):
     def setUp(self):
         self.gaussian = Gaussian(25, 2)
