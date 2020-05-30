@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/__init__.py
+distributions/binomial_distribution.py
+distributions/gaussian_distribution.py
+distributions/general_distribution.py
+tanacom_distributions.egg-info/PKG-INFO
+tanacom_distributions.egg-info/SOURCES.txt
+tanacom_distributions.egg-info/dependency_links.txt
+tanacom_distributions.egg-info/not-zip-safe
+tanacom_distributions.egg-info/top_level.txt
